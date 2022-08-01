@@ -47,7 +47,6 @@ export default function ProgressBarCustom(props) {
               >
                 {index + 1}
               </div>
-              {/* <div className={"test"}>Delivery</div> */}
             </>
           )}
         </Step>
@@ -61,20 +60,10 @@ export default function ProgressBarCustom(props) {
               >
                 {index + 1}
               </div>
-              {/* <div className={"test"}>Delivery</div> */}
             </>
           )}
         </Step>
       </ProgressBar>
-      {/* <div style={{ marginTop: "40px" }}>
-        <button onClick={() => setProgress(progress + 5)}>5 +</button>
-      </div>
-      <div
-        onClick={() => setProgress(progress - 5)}
-        style={{ marginTop: "20px" }}
-      >
-        <button>- 5</button>
-      </div> */}
     </div>
   );
 }

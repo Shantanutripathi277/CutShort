@@ -11,13 +11,6 @@ function Home() {
         <div  className="display-flex justify-content-center align-items-center bg-white-200 max-w-md">
         <span className="Head " >
         <img src={Edenlogo} align='' alt="EdenLogo" height = {100} width = {100 } className='logo' />
-      
-        {/* <ol id="progressbar">
-                        <li class="active" id="account" placeholder='1'><strong></strong></li>
-                        <li id="personal"><strong></strong></li>
-                        <li id="payment"><strong></strong></li>
-                        <li id="confirm"><strong></strong></li>
-        </ol> */}
         <ProgressBarCustom percent="0"></ProgressBarCustom>
         <p className="font-bold text-2xl">
         Welcome! First things first.....
