@@ -8,7 +8,7 @@ function Home() {
   const { register,handleSubmit } = useForm();
   const [data, setData] = useState("");
     return (
-        <div  className="display-flex justify-content-center align-items-center bg-white-200 max-w-md">
+        <div  className="display-flex max-w-screen-sm justify-content-center align-items-center bg-white-200 ">
         <span className="Head " >
         <img src={Edenlogo} align='' alt="EdenLogo" height = {100} width = {100 } className='logo' />
         <ProgressBarCustom percent="0"></ProgressBarCustom>

@@ -5,7 +5,7 @@ import ProgressBarCustom from "./ProgressBarCustom";
 
 function LaunchEden() {
   return (
-    <div className="display-flex justify-content-center align-items-center bg-white-200 max-w-md">
+    <div className="display-flex max-w-screen-sm justify-content-center align-items-center bg-white-200">
 
     <div className="px-8 pt-6 pb-8 mb-4">
       <img

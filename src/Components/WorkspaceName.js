@@ -9,7 +9,7 @@ function WorkspaceName() {
   const { register, handleSubmit } = useForm();
   const [data, setData] = useState("");
   return (
-    <div className="display-flex justify-content-center align-items-center bg-white-200 max-w-md">
+    <div className="max-w-s display-flex max-w-screen-sm justify-content-center align-items-center bg-white-200">
       <div>
         <img
           src={Edenlogo}
@@ -41,13 +41,13 @@ function WorkspaceName() {
             />
           </div>
           <div className="mb-8">
-            <label className="block text-gray-700 text-sm font-bold mb-2">
+            <label className="max-w-screen-sm block text-gray-700 text-sm font-bold mb-2">
               Workspace URL<span className="text-gray-400">(optional)</span>
             </label>
-            <span className=" h-5 colgray rounded focus:outline-none focus:shadow-outline text-gray-700 py-2 w-half ">
+            <span id='eden' className="h-5 colgray rounded focus:outline-none focus:shadow-outline text-gray-700 py-2">
               www.eden.com/
               <input
-                className=" ml-2 w-half shadow appearance-none border rounded py-2 px-3 text-gray-700 "
+                className="ml-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 "
                 id="Workspace URL"
                 type="text"
                 placeholder="Example"

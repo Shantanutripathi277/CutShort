@@ -7,7 +7,7 @@ import ProgressBarCustom from "./ProgressBarCustom";
 function Plan() {
   return (
 
-    <div  className="display-flex justify-content-center align-items-center bg-white-200 max-w-md">
+    <div  className="display-flex max-w-screen-sm justify-content-center align-items-center bg-white-200 ">
     
       <img
         src={Edenlogo}
