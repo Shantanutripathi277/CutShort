@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+.Head{
+  font-family: 'Inter', sans-serif;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tick{
+  margin-left: 35%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  margin: 20px auto 100px auto
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Colbuttonlst{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #664de5;
+  margin-left: 10%;
+}
+.Colbutton{
+  background-color: #664de5;
+}
+.wid{
+  width: 500px;
+}
+.bor{
+  border-spacing: 5px 1rem;
+}
+.bor:hover{
+  border-color: #5718de;
+}
+.bor:hover .sol{
+  filter: grayscale(0)
+}
+.sol{
+  filter: grayscale(10);
+}
+.Colbutton:hover 
+{
+  background-color: #5718de
+}
+.colgray{
+  background-color: #b3bccd;
+  padding-left: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey
+}
+
+#progressbar .active {
+  color: #673AB7
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400
+}
+
+#progressbar #account:before {
+  font-family: FontAwesome;
+  content: "\f13e"
+}
+
+#progressbar #personal:before {
+  font-family: FontAwesome;
+  content: "\f007"
+}
+
+#progressbar #payment:before {
+  font-family: FontAwesome;
+  content: "\f030"
+}
+
+#progressbar #confirm:before {
+  font-family: FontAwesome;
+  content: "\f00c"
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px
+}
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #673AB7
+}
+
+.progress {
+  height: 20px
+}
+
+.progress-bar {
+  background-color: #673AB7
+}
+
+.hidden {
+  display: none !important;
+}
+
+.step > span {
+  background-color: #673AB7 !important
+}
+
+
+.indexedStep {
   color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.indexedStep.accomplished {
+  background-color: #673AB7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.test {
+  position: absolute;
+  margin-top: 20px;
+  color: grey;
+  white-space: nowrap;
+}
+
+.RSPBprogressBar{
+  height: 2px !important;
+  margin-bottom: 50px !important;
+}
+
+.RSPBprogression {
+  background-color: #673AB7 !important;
 }
