@@ -17,7 +17,7 @@ function Plan() {
         className="logo"
       />
 
-        <ProgressBarCustom percent="70"></ProgressBarCustom>
+        <ProgressBarCustom className='bar' percent="70"></ProgressBarCustom>
 
       <p className="font-bold text-2xl text-center px-8 mb-4">
         How are you planning to use Eden?

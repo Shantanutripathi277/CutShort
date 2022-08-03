@@ -16,7 +16,7 @@ function LaunchEden() {
         className="logo"
       />
   
-        <ProgressBarCustom percent="100"></ProgressBarCustom>
+        <ProgressBarCustom className='bar' percent="100"></ProgressBarCustom>
     
       <p className="font-bold text-2xl text-center">
         <img src={tick} alt="tick" height={150} width={150} className="tick" />

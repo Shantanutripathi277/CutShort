@@ -11,7 +11,9 @@ function Home() {
         <div  className="display-flex max-w-screen-sm justify-content-center align-items-center bg-white-200 ">
         <span className="Head " >
         <img src={Edenlogo} align='' alt="EdenLogo" height = {100} width = {100 } className='logo' />
-        <ProgressBarCustom percent="0"></ProgressBarCustom>
+        <div className='content center'>
+        <ProgressBarCustom className='bar' percent="0"></ProgressBarCustom>
+        </div>
         <p className="font-bold text-2xl">
         Welcome! First things first.....
         </p>

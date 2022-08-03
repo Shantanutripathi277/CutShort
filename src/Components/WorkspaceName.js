@@ -19,7 +19,7 @@ function WorkspaceName() {
           className="logo"
         />
 
-          <ProgressBarCustom percent="38"></ProgressBarCustom>
+        <ProgressBarCustom className ='Bar' percent="38"></ProgressBarCustom>
 
         <p className="font-bold text-2xl">
           Let's set up a home for all your work
@@ -44,16 +44,12 @@ function WorkspaceName() {
             <label className="max-w-screen-sm block text-gray-700 text-sm font-bold mb-2">
               Workspace URL<span className="text-gray-400">(optional)</span>
             </label>
-            <span id='eden' className="h-5 colgray rounded focus:outline-none focus:shadow-outline text-gray-700 py-2">
-              www.eden.com/
-              <input
-                className="ml-2 shadow appearance-none border rounded py-2 px-3 text-gray-700 "
-                id="Workspace URL"
-                type="text"
-                placeholder="Example"
-                maxLength={20}
-              />
-            </span>
+            <div className="row">
+            <div className="inline-block">                           
+              <span className="input-group-addon rounded">www.eden.com/</span>
+              <input className='shadow appearance-none border rounded  text-gray-700' type="text" name="input" />
+            </div>
+          </div> 
           </div>
           <Link to="/plan">
             <button
